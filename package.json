@@ -1,6 +1,16 @@
 {
-  "name": "cars",
+  "name": "cars-api",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "API REST para gestão de carros",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  }
 }
